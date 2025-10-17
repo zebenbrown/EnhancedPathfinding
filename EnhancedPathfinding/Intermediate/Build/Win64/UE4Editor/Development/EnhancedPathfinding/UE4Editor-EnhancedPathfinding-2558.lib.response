@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-EnhancedPathfinding-2558.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\zeben.brown\EnhancedPathfinding\EnhancedPathfinding\Intermediate\Build\Win64\EnhancedPathfindingEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\zeben.brown\EnhancedPathfinding\EnhancedPathfinding\Intermediate\Build\Win64\UE4Editor\Development\EnhancedPathfinding\EnhancedPathfinding.cpp.obj"
+"C:\Users\zeben.brown\EnhancedPathfinding\EnhancedPathfinding\Intermediate\Build\Win64\UE4Editor\Development\EnhancedPathfinding\GridComponent.cpp.obj"
+"C:\Users\zeben.brown\EnhancedPathfinding\EnhancedPathfinding\Intermediate\Build\Win64\UE4Editor\Development\EnhancedPathfinding\EnhancedPathfinding.init.gen.cpp.obj"
+"C:\Users\zeben.brown\EnhancedPathfinding\EnhancedPathfinding\Intermediate\Build\Win64\UE4Editor\Development\EnhancedPathfinding\GridComponent.gen.cpp.obj"
+"C:\Users\zeben.brown\EnhancedPathfinding\EnhancedPathfinding\Intermediate\Build\Win64\UE4Editor\Development\EnhancedPathfinding\Default.rc2.res"
+/OUT:"C:\Users\zeben.brown\EnhancedPathfinding\EnhancedPathfinding\Intermediate\Build\Win64\UE4Editor\Development\EnhancedPathfinding\UE4Editor-EnhancedPathfinding-2558.lib"
+/INCLUDE:IMPLEMENT_MODULE_EnhancedPathfinding

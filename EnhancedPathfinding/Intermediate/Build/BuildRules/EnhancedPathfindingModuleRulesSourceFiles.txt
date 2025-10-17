@@ -1,0 +1,3 @@
+C:\Users\zeben.brown\EnhancedPathfinding\EnhancedPathfinding\Source\EnhancedPathfinding\EnhancedPathfinding.Build.cs
+C:\Users\zeben.brown\EnhancedPathfinding\EnhancedPathfinding\Source\EnhancedPathfinding.Target.cs
+C:\Users\zeben.brown\EnhancedPathfinding\EnhancedPathfinding\Source\EnhancedPathfindingEditor.Target.cs

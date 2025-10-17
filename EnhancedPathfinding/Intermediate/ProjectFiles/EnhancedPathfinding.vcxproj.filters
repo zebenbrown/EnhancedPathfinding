@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\EnhancedPathfinding.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6FE3D379-D880-421C-AAE0-CBC6C9635026}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EnhancedPathfinding.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\EnhancedPathfindingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{57242A2D-7F10-4A06-94E3-F513941E68C2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{DA9F4711-EEB9-4CB2-BDD1-2EB9700B4D75}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{142F534D-4942-4131-A50F-926C7A060618}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{DCB5C290-919A-4384-BB8F-ADD70A3F8BC6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{308ED289-823F-4FB1-8280-C456DF616EA0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{3C1F3D60-D8D4-4E9A-AEE2-F33A2292A892}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{65D60CA2-1693-4F0C-8A8B-12AB0C45A634}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{2CD5AF4C-7AEF-49EE-8D5B-2F0FEEABD9EF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{48CCB4A2-ED8B-4905-AD2C-347C94576696}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\EnhancedPathfinding">
+      <UniqueIdentifier>{1123B634-327A-4BF0-905C-13CF1A571583}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EnhancedPathfinding\EnhancedPathfinding.Build.cs">
+      <Filter>Source\EnhancedPathfinding</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\EnhancedPathfinding\EnhancedPathfinding.cpp">
+      <Filter>Source\EnhancedPathfinding</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EnhancedPathfinding\EnhancedPathfinding.h">
+      <Filter>Source\EnhancedPathfinding</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EnhancedPathfinding\GridComponent.cpp">
+      <Filter>Source\EnhancedPathfinding</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EnhancedPathfinding\GridComponent.h">
+      <Filter>Source\EnhancedPathfinding</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

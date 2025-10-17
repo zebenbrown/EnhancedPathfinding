@@ -1,4 +1,4 @@
-﻿Log file open, 10/15/25 20:23:17
+﻿Log file open, 10/17/25 13:58:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,10 +8,10 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: EnhancedPathfinding
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.062844
+LogTaskGraph: Started task graph with 5 named threads and 59 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.075660
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
-LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -121,13 +121,13 @@ LogInit: Build: ++UE4+Release-4.23-CL-9631420
 LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
 LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
 LogInit: Net CL: 8386587
-LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 5800X 8-Core Processor             , GPU: NVIDIA GeForce RTX 3060 Ti
+LogInit: OS: Windows 10 (Release 2009) (), CPU: 12th Gen Intel(R) Core(TM) i7-12700K, GPU: NVIDIA GeForce RTX 3070 Ti
 LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line:  -AUTH_LOGIN=unused -AUTH_PASSWORD=1887b8e1a73d4ce4bb76e321b00b03cf -AUTH_TYPE=exchangecode -epicapp=UE_4.23 -epicenv=Prod -EpicPortal -epicusername=ZebenDucks -epicuserid=1105ddc2f1d447f793e8eb3665c74e81 -epiclocale=en -epicsandboxid=ue
-LogInit: Base Directory: G:/UE_4.23/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -157,401 +157,508 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
-[2025.10.16-03.23.17:569][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2025.10.16-03.23.17:569][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
-[2025.10.16-03.23.17:569][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
-[2025.10.16-03.23.17:570][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2025.10.16-03.23.17:570][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2025.10.16-03.23.17:572][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2025.10.16-03.23.17:572][  0]LogInit: Selected Device Profile: [Windows]
-[2025.10.16-03.23.17:572][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2025.10.16-03.23.17:575][  0]LogHAL: Display: Platform has ~ 32 GB [34240012288 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2025.10.16-03.23.17:575][  0]LogInit: Going up to parent DeviceProfile []
-[2025.10.16-03.23.17:575][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2025.10.16-03.23.17:575][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2025.10.16-03.23.17:576][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
-[2025.10.16-03.23.17:576][  0]LogInit: Computer: ZEBENS_PC
-[2025.10.16-03.23.17:576][  0]LogInit: User: Zeben
-[2025.10.16-03.23.17:576][  0]LogInit: CPU Page size=4096, Cores=8
-[2025.10.16-03.23.17:576][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2025.10.16-03.23.17:576][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2025.10.16-03.23.17:576][  0]LogMemory: Platform Memory Stats for Windows
-[2025.10.16-03.23.17:576][  0]LogMemory: Process Physical Memory: 107.88 MB used, 107.88 MB peak
-[2025.10.16-03.23.17:576][  0]LogMemory: Process Virtual Memory: 90.79 MB used, 90.79 MB peak
-[2025.10.16-03.23.17:576][  0]LogMemory: Physical Memory: 19698.64 MB used,  12955.18 MB free, 32653.82 MB total
-[2025.10.16-03.23.17:576][  0]LogMemory: Virtual Memory: 4702.77 MB used,  134213024.00 MB free, 134217728.00 MB total
-[2025.10.16-03.23.17:579][  0]LogWindows: WindowsPlatformFeatures enabled
-[2025.10.16-03.23.17:614][  0]LogInit: Using OS detected language (en-US).
-[2025.10.16-03.23.17:614][  0]LogInit: Using OS detected locale (en-US).
-[2025.10.16-03.23.17:614][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2025.10.16-03.23.17:755][  0]LogInit: Setting process to per monitor DPI aware
-[2025.10.16-03.23.17:779][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2025.10.16-03.23.17:779][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2025.10.16-03.23.17:924][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2025.10.16-03.23.17:924][  0]LogD3D11RHI: D3D11 adapters:
-[2025.10.16-03.23.18:098][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Ti' (Feature Level 11_0)
-[2025.10.16-03.23.18:098][  0]LogD3D11RHI:       8024/0/16326 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2025.10.16-03.23.18:102][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2025.10.16-03.23.18:102][  0]LogD3D11RHI:       0/0/16326 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2025.10.16-03.23.18:102][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2025.10.16-03.23.18:116][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2025.10.16-03.23.18:116][  0]LogD3D11RHI:     GPU DeviceId: 0x2489 (for the marketing name, search the web for "GPU Device Id")
-[2025.10.16-03.23.18:116][  0]LogWindows: EnumDisplayDevices:
-[2025.10.16-03.23.18:116][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Ti' (P:1 D:1)
-[2025.10.16-03.23.18:116][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2025.10.16-03.23.18:116][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2025.10.16-03.23.18:116][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2025.10.16-03.23.18:116][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2025.10.16-03.23.18:116][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Ti
-[2025.10.16-03.23.18:116][  0]LogD3D11RHI:   Driver Version: 580.97 (internal:32.0.15.8097, unified:580.97)
-[2025.10.16-03.23.18:116][  0]LogD3D11RHI:      Driver Date: 8-7-2025
-[2025.10.16-03.23.18:116][  0]LogRHI: Texture pool is 5616 MB (70% of 8024 MB)
-[2025.10.16-03.23.18:235][  0]LogD3D11RHI: Async texture creation enabled
-[2025.10.16-03.23.18:255][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2025.10.16-03.23.18:256][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061082).
-[2025.10.16-03.23.18:503][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2025.10.16-03.23.18:509][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2025.10.16-03.23.18:516][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2025.10.16-03.23.18:521][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2025.10.16-03.23.18:527][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2025.10.16-03.23.18:534][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2025.10.16-03.23.18:540][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2025.10.16-03.23.18:546][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2025.10.16-03.23.18:549][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2025.10.16-03.23.18:577][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2025.10.16-03.23.18:578][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2025.10.16-03.23.18:592][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2025.10.16-03.23.18:592][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2025.10.16-03.23.18:601][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2025.10.16-03.23.18:601][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2025.10.16-03.23.18:607][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2025.10.16-03.23.18:612][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2025.10.16-03.23.18:619][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2025.10.16-03.23.18:624][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2025.10.16-03.23.18:642][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2025.10.16-03.23.18:642][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2025.10.16-03.23.18:642][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2025.10.16-03.23.18:647][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2025.10.16-03.23.18:674][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Intermediate/Shaders/WorkingDirectory/45484/).
-[2025.10.16-03.23.18:674][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Zeben/AppData/Local/Temp/UnrealShaderWorkingDir/C9A4EAE9476CCB500E88C883D7E70BDE/'.
-[2025.10.16-03.23.18:675][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2025.10.16-03.23.18:675][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2025.10.16-03.23.18:675][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2025.10.16-03.23.19:092][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2025.10.16-03.23.19:134][  0]LogDerivedDataCache: Loaded boot cache 0.04s 74MB C:/Users/Zeben/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2025.10.16-03.23.19:134][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Zeben/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2025.10.16-03.23.19:134][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2025.10.16-03.23.19:134][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2025.10.16-03.23.19:134][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2025.10.16-03.23.19:134][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2025.10.16-03.23.19:144][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2025.10.16-03.23.19:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2025.10.16-03.23.19:144][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2025.10.16-03.23.19:146][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zeben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2025.10.16-03.23.19:146][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2025.10.16-03.23.19:146][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2025.10.16-03.23.19:162][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2025.10.16-03.23.19:164][  0]LogSlate: Using FreeType 2.6.0
-[2025.10.16-03.23.19:164][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2025.10.16-03.23.19:207][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2025.10.16-03.23.19:408][  0]LogInit: Selected Device Profile: [Windows]
-[2025.10.16-03.23.19:501][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2025.10.16-03.23.19:501][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2025.10.16-03.23.19:501][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2025.10.16-03.23.19:501][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2025.10.16-03.23.19:501][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2025.10.16-03.23.19:507][  0]LogNetVersion: EnhancedPathfinding 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1354182020)
-[2025.10.16-03.23.19:825][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.074537 seconds
-[2025.10.16-03.23.19:840][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2025.10.16-03.23.19:840][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2025.10.16-03.23.19:840][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2025.10.16-03.23.20:476][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2025.10.16-03.23.20:494][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2025.10.16-03.23.20:540][  0]SourceControl: Source control is disabled
-[2025.10.16-03.23.20:540][  0]SourceControl: Source control is disabled
-[2025.10.16-03.23.20:541][  0]SourceControl: Source control is disabled
-[2025.10.16-03.23.20:541][  0]SourceControl: Source control is disabled
-[2025.10.16-03.23.20:609][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2025.10.16-03.23.20:806][  0]LogOcInput: OculusInput pre-init called
-[2025.10.16-03.23.20:811][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2025.10.16-03.23.20:811][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2025.10.16-03.23.20:857][  0]LogEngine: Initializing Engine...
-[2025.10.16-03.23.20:857][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2025.10.16-03.23.20:859][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2025.10.16-03.23.20:999][  0]LogInit: Initializing FReadOnlyCVARCache
-[2025.10.16-03.23.21:009][  0]LogAIModule: Creating AISystem for world Untitled
-[2025.10.16-03.23.21:119][  0]LogInit: XAudio2 using 'Headphones (Arctis Nova Pro Wireless)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
-[2025.10.16-03.23.21:136][  0]LogInit: FAudioDevice initialized.
-[2025.10.16-03.23.21:136][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2025.10.16-03.23.21:421][  0]LogDerivedDataCache: Saved boot cache 0.28s 74MB C:/Users/Zeben/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2025.10.16-03.23.21:426][  0]LogInit: Texture streaming: Enabled
-[2025.10.16-03.23.21:438][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2025.10.16-03.23.21:438][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2025.10.16-03.23.21:439][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2025.10.16-03.23.21:460][  0]LogInit: Transaction tracking system initialized
-[2025.10.16-03.23.21:476][  0]BlueprintLog: New page: Editor Load
-[2025.10.16-03.23.21:535][  0]LocalizationService: Localization service is disabled
-[2025.10.16-03.23.21:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Content/' took 0.00s
-[2025.10.16-03.23.21:711][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2025.10.16-03.23.21:711][  0]LogCook: Display: Mobile HDR setting 1
-[2025.10.16-03.23.21:867][  0]SourceControl: Source control is disabled
-[2025.10.16-03.23.21:867][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2025.10.16-03.23.21:869][  0]LightingResults: New page: Lighting Build
-[2025.10.16-03.23.21:869][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2025.10.16-03.23.21:870][  0]MapCheck: New page: Map Check
-[2025.10.16-03.23.21:870][  0]LightingResults: New page: Lighting Build
-[2025.10.16-03.23.21:896][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
-[2025.10.16-03.23.21:953][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2025.10.16-03.23.21:960][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2025.10.16-03.23.21:987][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
-[2025.10.16-03.23.21:987][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2025.10.16-03.23.21:987][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.177ms to complete.
-[2025.10.16-03.23.21:987][  0]LogFileHelpers: Loading map 'Template_Default' took 0.119
-[2025.10.16-03.23.22:110][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2025.10.16-03.23.22:119][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2025.10.16-03.23.22:127][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2025.10.16-03.23.22:136][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2025.10.16-03.23.22:144][  0]LogCollectionManager: Loaded 0 collections in 0.000907 seconds
-[2025.10.16-03.23.22:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Saved/Collections/' took 0.00s
-[2025.10.16-03.23.22:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Content/Developers/Zeben/Collections/' took 0.00s
-[2025.10.16-03.23.22:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zeben/EnhancedPathfinding/EnhancedPathfinding/Content/Collections/' took 0.00s
-[2025.10.16-03.23.22:164][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2025.10.16-03.23.22:176][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2863 classes and 680 folders.
-[2025.10.16-03.23.22:183][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2025.10.16-03.23.22:251][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2025.10.16-03.23.22:260][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2025.10.16-03.23.22:297][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2025.10.16-03.23.22:299][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2025.10.16-03.23.22:305][  0]LogSlate: Took 0.000638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2025.10.16-03.23.22:372][  0]LogRenderer: Reallocating scene render targets to support 1208x568 Format 10 NumSamples 1 (Frame:1).
-[2025.10.16-03.23.22:629][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2025.10.16-03.23.22:657][  0]LogSlate: Window 'Tutorials' being destroyed
-[2025.10.16-03.23.22:674][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2025.10.16-03.23.22:674][  0]LogLoad: (Engine Initialization) Total time: 5.98 seconds
-[2025.10.16-03.23.22:675][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2025.10.16-03.23.22:726][  0]LogAssetRegistry: Asset discovery search completed in 3.5193 seconds
-[2025.10.16-03.23.22:729][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2025.10.16-03.23.22:729][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
-[2025.10.16-03.23.22:731][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2025.10.16-03.23.26:477][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2025.10.16-03.23.44:247][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2025.10.16-03.29.03:003][912]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2025.10.16-03.29.03:688][992]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2025.10.16-03.29.03:717][993]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2025.10.16-03.29.04:106][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2025.10.16-03.29.08:294][502]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2025.10.16-03.29.09:500][646]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2025.10.16-03.29.10:216][646]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2025.10.16-03.33.24:159][895]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={EE8A4918-4635-4BA4-4C7A-E48EF1D83F39}
-[2025.10.16-03.40.10:465][801]LogInit: Warning: CVar named 'r.MobileHDR' marked up in RendererSettings was not found or is set to read-only
-[2025.10.16-03.40.10:498][801]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2025.10.17-17.58.45:963][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
+[2025.10.17-17.58.45:964][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2025.10.17-17.58.45:964][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
+[2025.10.17-17.58.45:964][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
+[2025.10.17-17.58.45:967][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.10.17-17.58.45:967][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2025.10.17-17.58.45:968][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2025.10.17-17.58.45:968][  0]LogInit: Selected Device Profile: [Windows]
+[2025.10.17-17.58.45:968][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2025.10.17-17.58.45:970][  0]LogHAL: Display: Platform has ~ 32 GB [34018926592 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.10.17-17.58.45:970][  0]LogInit: Going up to parent DeviceProfile []
+[2025.10.17-17.58.45:970][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Scalability.ini]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.10.17-17.58.45:970][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Config/Windows/Engine.ini]
+[2025.10.17-17.58.45:970][  0]LogInit: Computer: J101-24
+[2025.10.17-17.58.45:970][  0]LogInit: User: zebenbrown
+[2025.10.17-17.58.45:970][  0]LogInit: CPU Page size=4096, Cores=12
+[2025.10.17-17.58.45:970][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.10.17-17.58.45:970][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2025.10.17-17.58.45:970][  0]LogMemory: Platform Memory Stats for Windows
+[2025.10.17-17.58.45:970][  0]LogMemory: Process Physical Memory: 111.84 MB used, 111.84 MB peak
+[2025.10.17-17.58.45:970][  0]LogMemory: Process Virtual Memory: 103.80 MB used, 103.80 MB peak
+[2025.10.17-17.58.45:970][  0]LogMemory: Physical Memory: 15166.27 MB used,  17276.71 MB free, 32442.98 MB total
+[2025.10.17-17.58.45:970][  0]LogMemory: Virtual Memory: 4734.46 MB used,  134212992.00 MB free, 134217728.00 MB total
+[2025.10.17-17.58.45:973][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.10.17-17.58.45:992][  0]LogInit: Using OS detected language (en-US).
+[2025.10.17-17.58.45:992][  0]LogInit: Using OS detected locale (en-US).
+[2025.10.17-17.58.45:992][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2025.10.17-17.58.46:091][  0]LogInit: Setting process to per monitor DPI aware
+[2025.10.17-17.58.46:118][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2025.10.17-17.58.46:118][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2025.10.17-17.58.46:220][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2025.10.17-17.58.46:220][  0]LogD3D11RHI: D3D11 adapters:
+[2025.10.17-17.58.46:356][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070 Ti' (Feature Level 11_0)
+[2025.10.17-17.58.46:356][  0]LogD3D11RHI:       8018/0/16221 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2025.10.17-17.58.46:407][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 770' (Feature Level 11_0)
+[2025.10.17-17.58.46:407][  0]LogD3D11RHI:       128/0/16221 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2025.10.17-17.58.46:412][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2025.10.17-17.58.46:412][  0]LogD3D11RHI:       0/0/16221 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2025.10.17-17.58.46:412][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2025.10.17-17.58.46:420][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2025.10.17-17.58.46:420][  0]LogD3D11RHI:     GPU DeviceId: 0x2482 (for the marketing name, search the web for "GPU Device Id")
+[2025.10.17-17.58.46:420][  0]LogWindows: EnumDisplayDevices:
+[2025.10.17-17.58.46:420][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3070 Ti' (P:0 D:1)
+[2025.10.17-17.58.46:420][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3070 Ti' (P:1 D:1)
+[2025.10.17-17.58.46:422][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3070 Ti' (P:0 D:0)
+[2025.10.17-17.58.46:422][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070 Ti' (P:0 D:0)
+[2025.10.17-17.58.46:422][  0]LogWindows:    4. 'Intel(R) UHD Graphics 770' (P:0 D:0)
+[2025.10.17-17.58.46:422][  0]LogWindows:    5. 'Intel(R) UHD Graphics 770' (P:0 D:0)
+[2025.10.17-17.58.46:422][  0]LogWindows:    6. 'Intel(R) UHD Graphics 770' (P:0 D:0)
+[2025.10.17-17.58.46:422][  0]LogWindows:    7. 'Intel(R) UHD Graphics 770' (P:0 D:0)
+[2025.10.17-17.58.46:423][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2025.10.17-17.58.46:423][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070 Ti
+[2025.10.17-17.58.46:423][  0]LogD3D11RHI:   Driver Version: 572.96 (internal:32.0.15.7296, unified:572.96)
+[2025.10.17-17.58.46:423][  0]LogD3D11RHI:      Driver Date: 4-6-2025
+[2025.10.17-17.58.46:423][  0]LogRHI: Texture pool is 5612 MB (70% of 8018 MB)
+[2025.10.17-17.58.46:518][  0]LogD3D11RHI: Async texture creation enabled
+[2025.10.17-17.58.46:526][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2025.10.17-17.58.46:734][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2025.10.17-17.58.46:739][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2025.10.17-17.58.46:745][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2025.10.17-17.58.46:750][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2025.10.17-17.58.46:756][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2025.10.17-17.58.46:762][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2025.10.17-17.58.46:768][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2025.10.17-17.58.46:773][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2025.10.17-17.58.46:776][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2025.10.17-17.58.46:795][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2025.10.17-17.58.46:796][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2025.10.17-17.58.46:808][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2025.10.17-17.58.46:808][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2025.10.17-17.58.46:815][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2025.10.17-17.58.46:815][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2025.10.17-17.58.46:820][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2025.10.17-17.58.46:824][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2025.10.17-17.58.46:829][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2025.10.17-17.58.46:834][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2025.10.17-17.58.46:847][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2025.10.17-17.58.46:847][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2025.10.17-17.58.46:847][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2025.10.17-17.58.46:853][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.10.17-17.58.46:886][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Intermediate/Shaders/WorkingDirectory/25160/).
+[2025.10.17-17.58.46:886][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/zeben.brown/AppData/Local/Temp/UnrealShaderWorkingDir/BD84B08C4938FFAE0C67C090C48C4BA2/'.
+[2025.10.17-17.58.46:888][  0]LogXGEController: Cleaning working directory: C:/Users/zeben.brown/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.10.17-17.58.46:889][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2025.10.17-17.58.47:250][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2025.10.17-17.58.47:292][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/zeben.brown/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2025.10.17-17.58.47:292][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/zeben.brown/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2025.10.17-17.58.47:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.10.17-17.58.47:292][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2025.10.17-17.58.47:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.10.17-17.58.47:292][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2025.10.17-17.58.47:300][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2025.10.17-17.58.47:300][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.10.17-17.58.47:300][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2025.10.17-17.58.47:301][  0]LogDerivedDataCache: Using Local data cache path C:/Users/zeben.brown/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2025.10.17-17.58.47:301][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2025.10.17-17.58.47:301][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2025.10.17-17.58.47:313][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2025.10.17-17.58.47:315][  0]LogSlate: Using FreeType 2.6.0
+[2025.10.17-17.58.47:316][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.10.17-17.58.47:351][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2025.10.17-17.58.47:502][  0]LogInit: Selected Device Profile: [Windows]
+[2025.10.17-17.58.47:585][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.10.17-17.58.47:585][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2025.10.17-17.58.47:585][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.10.17-17.58.47:585][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2025.10.17-17.58.47:585][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.10.17-17.58.47:591][  0]LogNetVersion: EnhancedPathfinding 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1354182020)
+[2025.10.17-17.58.47:817][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.022914 seconds
+[2025.10.17-17.58.47:820][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2025.10.17-17.58.47:820][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2025.10.17-17.58.47:820][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.10.17-17.58.48:311][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.10.17-17.58.48:313][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.10.17-17.58.48:351][  0]SourceControl: Source control is disabled
+[2025.10.17-17.58.48:351][  0]SourceControl: Source control is disabled
+[2025.10.17-17.58.48:352][  0]SourceControl: Source control is disabled
+[2025.10.17-17.58.48:353][  0]SourceControl: Source control is disabled
+[2025.10.17-17.58.48:417][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.10.17-17.58.48:506][  0]LogOcInput: OculusInput pre-init called
+[2025.10.17-17.58.48:512][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2025.10.17-17.58.48:512][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2025.10.17-17.58.48:550][  0]LogEngine: Initializing Engine...
+[2025.10.17-17.58.48:551][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2025.10.17-17.58.48:551][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.10.17-17.58.48:663][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.10.17-17.58.48:675][  0]LogAIModule: Creating AISystem for world Untitled
+[2025.10.17-17.58.48:688][  0]LogInit: XAudio2 using 'Speakers (DELL Slim Soundbar SB521A)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
+[2025.10.17-17.58.48:713][  0]LogInit: FAudioDevice initialized.
+[2025.10.17-17.58.48:713][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.10.17-17.58.48:779][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/zeben.brown/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2025.10.17-17.58.48:784][  0]LogInit: Texture streaming: Enabled
+[2025.10.17-17.58.48:797][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2025.10.17-17.58.48:797][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2025.10.17-17.58.48:798][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2025.10.17-17.58.48:823][  0]LogInit: Transaction tracking system initialized
+[2025.10.17-17.58.48:847][  0]BlueprintLog: New page: Editor Load
+[2025.10.17-17.58.48:898][  0]LocalizationService: Localization service is disabled
+[2025.10.17-17.58.49:020][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Content/' took 0.00s
+[2025.10.17-17.58.49:020][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2025.10.17-17.58.49:020][  0]LogCook: Display: Mobile HDR setting 1
+[2025.10.17-17.58.49:131][  0]SourceControl: Source control is disabled
+[2025.10.17-17.58.49:131][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2025.10.17-17.58.49:131][  0]LightingResults: New page: Lighting Build
+[2025.10.17-17.58.49:133][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-17.58.49:133][  0]MapCheck: New page: Map Check
+[2025.10.17-17.58.49:133][  0]LightingResults: New page: Lighting Build
+[2025.10.17-17.58.49:157][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.10.17-17.58.49:195][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2025.10.17-17.58.49:198][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.17-17.58.49:227][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.10.17-17.58.49:227][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.17-17.58.49:227][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.096ms to complete.
+[2025.10.17-17.58.49:227][  0]LogFileHelpers: Loading map 'Template_Default' took 0.096
+[2025.10.17-17.58.49:328][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.17-17.58.49:331][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.17-17.58.49:335][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.17-17.58.49:338][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.17-17.58.49:358][  0]LogCollectionManager: Loaded 0 collections in 0.000994 seconds
+[2025.10.17-17.58.49:364][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Collections/' took 0.00s
+[2025.10.17-17.58.49:364][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Content/Developers/zebenbrown/Collections/' took 0.00s
+[2025.10.17-17.58.49:364][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Content/Collections/' took 0.00s
+[2025.10.17-17.58.49:364][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2025.10.17-17.58.49:369][  0]LogContentBrowser: Native class hierarchy populated in 0.0053 seconds. Added 2865 classes and 684 folders.
+[2025.10.17-17.58.49:373][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2025.10.17-17.58.49:393][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2025.10.17-17.58.49:409][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.10.17-17.58.49:590][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.10.17-17.58.49:593][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.10.17-17.58.49:625][  0]LogRenderer: Reallocating scene render targets to support 1208x916 Format 10 NumSamples 1 (Frame:1).
+[2025.10.17-17.58.49:691][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2025.10.17-17.58.49:691][  0]LogLoad: (Engine Initialization) Total time: 4.32 seconds
+[2025.10.17-17.58.49:691][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2025.10.17-17.58.49:723][  0]LogAssetRegistry: Asset discovery search completed in 2.3725 seconds
+[2025.10.17-17.58.49:725][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2025.10.17-17.58.49:725][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2025.10.17-17.58.49:726][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.10.17-17.59.04:760][ 45]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2025.10.17-17.59.06:875][289]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2025.10.17-17.59.08:651][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2025.10.17-17.59.08:716][509]LogSlate: Window 'Editor Preferences' being destroyed
+[2025.10.17-17.59.08:721][509]LogSlate: Window 'Editor Preferences' being destroyed
+[2025.10.17-17.59.10:434][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2025.10.17-17.59.11:529][841]LogSlate: Took 0.000795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.17-17.59.12:561][965]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.17-17.59.12:568][965]LogAssetEditorManager: Opening Asset editor for Class /Script/EnhancedPathfinding.GridComponent
+[2025.10.17-18.05.05:169][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2025.10.17-18.05.12:115][984]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2025.10.17-18.05.13:686][984]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.10.17-18.05.13:696][984]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2025.10.17-18.05.15:990][257]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NewBlueprint.NewBlueprint
+[2025.10.17-18.05.16:145][257]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2025.10.17-18.05.16:516][257]LogSlate: Took 0.000473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.10.17-18.05.25:332][306]LogSlate: Took 0.001713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.10.17-18.07.51:714][903]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={2757AD19-4D01-198E-5212-44A6E71A1146}
+[2025.10.17-18.07.51:714][903]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={23C3057D-4ACA-80C9-5F32-FE97776B73E1}
+[2025.10.17-18.08.50:122][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2025.10.17-18.08.50:140][ 77]LogSavePackage: Moving '../../../../../../Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Untitled_1_Auto1572ADB634F70D83A1B25E294E7B3171E.tmp' to '../../../../../../Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2025.10.17-18.08.50:142][ 77]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.055
+[2025.10.17-18.08.50:143][ 77]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.055
+[2025.10.17-18.08.50:144][ 77]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewBlueprint] ([1] browsable assets)...
+[2025.10.17-18.08.50:144][ 77]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewBlueprint]
+[2025.10.17-18.08.50:149][ 77]LogSavePackage: Moving '../../../../../../Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/NewBlueprint_Auto132F19E114870DEB673FE7DB36E532829.tmp' to '../../../../../../Users/zeben.brown/EnhancedPathfinding/EnhancedPathfinding/Saved/Autosaves/Game/NewBlueprint_Auto1.uasset'
+[2025.10.17-18.08.50:149][ 77]LogFileHelpers: Auto-saving content packages took 0.006
